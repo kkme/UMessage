@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/kkme/UMessage.git", :tag => s.version  }
 
-  s.source_files  = "Core", "UMessage/**/*.{h,m}"
+  s.source_files  = "UMessage", "UMessage/**/*.{h,m}"
   s.vendored_libraries = 'UMessage/*.a'
 
 

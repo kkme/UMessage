@@ -14,11 +14,13 @@ Pod::Spec.new do |s|
 
   s.author             = { "maojianxin" => "maojianxin@umeng.com" }
 
-  s.source       = { :git => "https://github.com/kkme/UMessage.git", :tag => "1.2.6" }
 
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source       = { :git => "https://github.com/kkme/UMessage.git", :tag => s.version  }
+
+  s.source_files  = "Core", "UMessage/**/*.{h,m}"
+  s.vendored_libraries = 'UMessage/*.a'
+
 
 
 end

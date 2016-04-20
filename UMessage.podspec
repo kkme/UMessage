@@ -7,7 +7,5 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/kkme/UMessage.git", :branch => s.version  }
   s.source_files = "UMessage/UMessage.h"
   s.preserve_paths = "UMessage/libUMessage_Sdk_1.2.6.a"
-  s.libraries = 'UMessage_Sdk_1.2.6', 'z'
-  s.requires_arc = false
-  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/UMessage/UMessage"' }
+  s.vendored_libraries = 'Umessage/*.a'
 end

@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "http://EXAMPLE/UMessage"
+  s.homepage     = "https://github.com/kkme/UMessage"
 
   s.license      = "MIT (example)"
 
@@ -20,7 +20,5 @@ Pod::Spec.new do |s|
 
   s.source_files  = "UMessage", "UMessage/**/*.{h,m}"
   s.vendored_libraries = 'UMessage/*.a'
-
-
 
 end

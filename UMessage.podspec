@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
   s.name = 'UMessage'
   s.version = '1.4.0'
+  s.author = { "kkme" => "maojianxin@umeng.com" }
   s.summary = 'UMeng Push SDK'
   s.homepage = 'http://dev.umeng.com/message/ios/sdk-download'
   s.ios.deployment_target = '7.0'
